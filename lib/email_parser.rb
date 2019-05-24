@@ -14,6 +14,12 @@ class EmailParser
     emails.split(/, | /).uniq
   end
   
+  binding.pry 
+  
+  email = EmailParser.new 
+  email = "santaclause.lean,bus@gmail.com"
+  
+  
   
   
   
